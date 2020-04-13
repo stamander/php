@@ -5,5 +5,6 @@
 
   <?php
     // 7 * 2をechoしてください
-    echo 7 * 2;
-  ?>
+    $sum = 7*2;
+    echo $sum;
+?>
