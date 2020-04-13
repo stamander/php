@@ -10,18 +10,3 @@
     $sum1 = $sum*3;
     echo $sum1;
 ?>
-
-<?php
-  $a =1;
-
-
-  echo ++$a;
-  ?>
-
-
-<?php
-  $a =1;
-
-
-  echo ++$a;
-  ?>
