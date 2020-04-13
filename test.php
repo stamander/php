@@ -1,5 +1,6 @@
 <?php
-    // 'Hello, world!'をechoしてください
-    echo 'Hello, world!';
-?>
+  echo "hello world";
 
+  echo 7+3;
+
+  ?>
