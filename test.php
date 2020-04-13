@@ -1,10 +1,9 @@
 <?php
-  echo "hello world";
-  echo 7+3;
+    // 'Hello, world!'をechoしてください
+    echo 'Hello, world!';
   ?>
 
-<br>
-<?php
-
-  echo 7+3;
+  <?php
+    // 7 * 2をechoしてください
+    echo 7 * 2;
   ?>
