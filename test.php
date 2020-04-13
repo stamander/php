@@ -2,7 +2,7 @@
   $name = "atsushi";
   $name.= "iida";
 
-  echo $name;
+  echo "こんにちは{$name}さん";
   ?>
 
  
