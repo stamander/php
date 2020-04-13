@@ -1,8 +1,8 @@
 <?php
-  $name = "atsushi";
-  $name.= "iida";
-
-  echo "こんにちは{$name}さん";
+ $x = 20;
+ if ($x>10){
+   echo '$xは10より大きい';
+ }
   ?>
 
  
