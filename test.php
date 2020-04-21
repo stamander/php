@@ -1,6 +1,8 @@
 <?php
-$name ='Bob';
-echo $name;
+    $fruit = "りんご";
+    echo $fruit;
+    $sum = 8+9;
+    echo $sum;
   ?>
 
  
