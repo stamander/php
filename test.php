@@ -1,8 +1,8 @@
 <?php
-    $fruit = "りんご";
-    echo $fruit;
-    $sum = 8+9;
-    echo $sum;
+  $fruit = "りんご";
+  echo $fruit;
+  $sum = 8+9;
+  echo $sum;
   ?>
 
  
