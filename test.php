@@ -1,11 +1,6 @@
 <?php
- $x = 20;
- if ($x>10){
-   echo '$xは10より大きい';
- }
- if ($x>5){
-  echo '$xは5より大きい';
-}
+$name ='Bob';
+echo $name;
   ?>
 
  
