@@ -43,8 +43,9 @@
 
   $names = array('ats','yukimi');
   $names[] = 'stamander';
-  echo $names[1]
-  echo 
+  echo $names[1];
+  $names[0]='atsushi';
+  echo $names[0];
       
   ?>
 
