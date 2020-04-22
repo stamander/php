@@ -42,11 +42,16 @@
       }
 
   $names = array('ats','yukimi');
-  $names[] = 'stamander';
+  $names[] ='stamander';
   echo $names[1];
   $names[0]='atsushi';
   echo $names[0];
       
+  $colors = array("赤","青","黄");
+  echo  $colors[0];
+  
+  $colors[] = "白";
+  echo $colors[3]
   ?>
 
  
