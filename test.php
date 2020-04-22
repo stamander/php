@@ -24,20 +24,20 @@
    
       // switch文を用いてください
       switch($remainder){
-        case 0;
+        case 0:
         echo '大吉です。';
         break;
         
-        case 1;
+        case 1:
         echo '中吉です。';
         break;
         
-        case 2;
+        case 2:
         echo '小吉です。';
         
         break;
         
-        default;
+        default:
         echo '凶です。';
         break;
       }
