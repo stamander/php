@@ -31,8 +31,36 @@
     echo 'xは7の倍数ですが3の倍数ではありません。';
   }else{
     echo 'xは7の倍数でも3の倍数でもありません。';
+
   }
+
+  $coin = 33;
+
+  $a= $coin%5;
   
+  switch($a){
+    case 0;
+      echo '表';
+    break;
+
+    case 1;
+      echo '裏';
+    break;
+
+    case 2;
+      echo 'エラー';
+    break;
+
+
+
+
+
+
+
+
+
+
+  }
 
 
 
