@@ -1,10 +1,10 @@
 <?php
   $x = 20;
-  if($x>30){
+  if($x>10 && $x<30){
     echo '$xは30より大きい';
   }elseif($x>=20){
     echo '$xは30以下20以上';
-    echo \n;
+    
 
   }else{
     echo '$xは20より小さい';
