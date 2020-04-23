@@ -59,6 +59,8 @@
     'gender' => 'male'
   );
 
+  echo $u['name'];
+
 
 
 
