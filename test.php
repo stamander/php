@@ -51,16 +51,17 @@
   echo  $colors[0];
   
   $colors[] = "白";
-  echo $colors[3]
+  echo $colors[3];
 
   $user=array(
     'name' => 'わんこ',
     'age' =>  14,
-    'gender' => 'male',
-
+    'gender' => 'male'
   )
 
   echo $user['name'];
+
+
   ?>
 
  
