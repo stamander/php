@@ -76,7 +76,7 @@
     echo $scores['国語'];
 
     for ($i=1;$i<=100;$i++){
-      echo $i;
+      echo $i.'<br>';
 
     }
     
