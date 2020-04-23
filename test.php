@@ -57,7 +57,10 @@
     'name' => 'わんこ',
     'age' =>  14,
     'gender' => 'male',
+
   )
+
+  echo $user['name'];
   ?>
 
  
