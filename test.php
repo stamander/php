@@ -53,13 +53,13 @@
   $colors[] = "白";
   echo $colors[3];
 
-  $user=array(
+  $u=array(
     'name' => 'わんこ',
     'age' =>  14,
     'gender' => 'male'
-  )
+  );
 
-  echo $user['name'];
+
 
 
   ?>
