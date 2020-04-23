@@ -52,6 +52,12 @@
   
   $colors[] = "白";
   echo $colors[3]
+
+  $user=array(
+    'name' => 'わんこ',
+    'age' =>  14,
+    'gender' => 'male',
+  )
   ?>
 
  
