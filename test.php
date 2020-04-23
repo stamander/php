@@ -75,18 +75,22 @@
     
     echo $scores['国語'];
 
-    for ($i=1;$i<=100;$i++){
-      echo $i;
-      echo '<br>';
-
-    }
+    $i = 2;
     
-    $i=1;
-    while($i <= 100){
+    
+    // while文を書いてください
+    while($i<=100){
       echo $i;
-      $i++;
+      $i+=2;
     }
 
+
+    for($i=1;$i<=100;$i++){
+      if($i>5){
+      break;
+      }
+    echo $i;
+    }
 
 
   ?>
