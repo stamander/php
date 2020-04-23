@@ -61,6 +61,12 @@
 
   echo $u['name'];
 
+  $u['name'] = 'yukimi';
+
+  echo $u['name'];
+  
+  
+
 
 
 
