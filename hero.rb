@@ -10,3 +10,6 @@ p "月収は#{m}円です"
 
 
 
+names = ["Sato","Kato","Tanaka"]
+
+puts names[0]
