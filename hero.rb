@@ -11,6 +11,7 @@ p "月収は#{m}円です"
 
 
 names = ["Sato","Kato","Tanaka"]
+message = "こんにちは"
 
 puts "私の名前は#{names[0]}です"
 
