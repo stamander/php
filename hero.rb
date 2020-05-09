@@ -19,5 +19,5 @@ puts "私の名前は#{names[0]}です"
 names.each do |name|
   puts name
   puts message
-  puts user
+  puts user[:name]
 end
