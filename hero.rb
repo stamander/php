@@ -12,10 +12,12 @@ p "月収は#{m}円です"
 
 names = ["Sato","Kato","Tanaka"]
 message = "こんにちは"
+user = {name:"yuki",age:23}
 
 puts "私の名前は#{names[0]}です"
 
 names.each do |name|
   puts name
   puts message
+  puts user
 end
