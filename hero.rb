@@ -25,5 +25,5 @@ names.each do |name|
 
 end
 
-iida={name: "ats",age: 23}
+iida={name: "ats",age: 2}
 puts iida
