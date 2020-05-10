@@ -24,3 +24,6 @@ names.each do |name|
   puts user[:gender]
 
 end
+
+iida={name: "ats",age: 23}
+puts iida
