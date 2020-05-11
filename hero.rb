@@ -14,6 +14,6 @@ users =[
   {name: "yukimi",age:23},
   {name:"atsushi",age:23}
 ]
-girsfriend = users[0]
-puts girsfriend[:name]
+
+puts users[0][:name]
 
