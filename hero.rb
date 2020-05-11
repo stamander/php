@@ -26,7 +26,11 @@ end
 
 
 user = {name:"yukimi",age:23}
+if user[:age]
+  puts "#{user[:name]}さんの年齢は#{user[:age]}歳です"
 
+else
+  
 
 
 
