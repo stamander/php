@@ -16,3 +16,12 @@ users =[
 ]
 
 puts users
+
+exam =[
+  {subject: "Math", score: 80},
+  {subject: "Science", score: 55}
+  ]
+
+# インデックス番号が1の要素の値を出力してください
+
+puts exam[1]
