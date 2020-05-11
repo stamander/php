@@ -15,4 +15,4 @@ users =[
   {name:"atsushi",age:23}
 ]
 
-puts
+puts users
