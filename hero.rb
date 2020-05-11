@@ -10,40 +10,6 @@ p "月収は#{m}円です"
 
 
 
-names = ["Sato","Kato","Tanaka"]
-message = "こんにちは"
-user = {name:"yuki",age:23}
-user[:gender]="female"
-
-puts "私の名前は#{names[0]}です"
-
-names.each do |name|
-  puts name
-  puts message
+user =[
   
-
-end
-
-
-user = {name:"yukimi"}
-if user[:age]
-  puts "#{user[:name]}さんの年齢は#{user[:age]}歳です"
-
-else
-  puts "#{user[:name]}さんの年齢は秘密です"
-
-
-end
-
-
-
-
- exam = {subject: "Math"}
-
- # 条件式にキー「:score」の値を使うif文をつくってください
- if exam[:score]
- puts "#{exam[:subject]}の結果は#{exam[:score]}点です"
- else
-   puts "#{exam[:subject]}の結果はわかりません"
- end
- 
+]
