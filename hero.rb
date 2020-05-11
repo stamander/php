@@ -15,5 +15,8 @@ users =[
   {name:"atsushi",age:23}
 ]
 
-puts users[1][:name]
+users.each do |name|
+  puts name
+
+end
 
