@@ -25,5 +25,5 @@ names.each do |name|
 
 end
 
-iida={name: "ats",age: 23}
-puts iida[:weight]
+
+
