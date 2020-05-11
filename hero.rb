@@ -30,7 +30,9 @@ if user[:age]
   puts "#{user[:name]}さんの年齢は#{user[:age]}歳です"
 
 else
-  
+  puts "#{user[:name]}さんの年齢は秘密です"
+
+ end
 
 
 
