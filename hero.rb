@@ -30,7 +30,7 @@ p "月収は#{m}円です"
     
     # キー:ageの値に応じて年齢の情報を出力してください
     if character[:age]
-      puts "年齢は#{character[:age]}です"
+      puts "年齢は#{character[:age]}歳です"
     else
       puts "年齢は秘密です"
     end
