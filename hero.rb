@@ -21,9 +21,11 @@ names.each do |name|
   puts name
   puts message
   
-  puts user[:gender]
 
 end
 
+
+user = {name:"yukimi",age:23}
+user[:gender]="female"
 
 
