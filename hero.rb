@@ -26,6 +26,8 @@ end
 
 
 user = {name:"yukimi",age:23}
-user[:gender]="female"
+
+
+
 
 
