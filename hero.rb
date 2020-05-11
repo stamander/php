@@ -16,7 +16,7 @@ users =[
 ]
 
 users.each do |name|
-  puts name
+  puts name[:name]
 
 end
 
