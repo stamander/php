@@ -15,13 +15,5 @@ users =[
   {name:"atsushi",age:23}
 ]
 girsfriend = users[0]
-puts users
+puts girsfriend
 
-exam =[
-  {subject: "Math", score: 80},
-  {subject: "Science", score: 55}
-  ]
-
-# インデックス番号が1の要素の値を出力してください
-
-puts exam[1]
