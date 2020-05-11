@@ -10,6 +10,9 @@ p "月収は#{m}円です"
 
 
 
-user =[
-  
+users =[
+  {name: "yukimi",age:23},
+  {name:"atsushi",age:23}
 ]
+
+puts
