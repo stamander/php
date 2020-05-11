@@ -14,7 +14,7 @@ users =[
   {name: "yukimi",age:23},
   {name:"atsushi",age:23}
 ]
-
+girsfriend = users[0]
 puts users
 
 exam =[
