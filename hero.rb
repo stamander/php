@@ -15,5 +15,5 @@ users =[
   {name:"atsushi",age:23}
 ]
 girsfriend = users[0]
-puts girsfriend
+puts girsfriend[:name]
 
