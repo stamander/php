@@ -8,3 +8,11 @@ p "週給は#{s}円です"
 p "月収は#{m}円です"
 
 
+def intoroduce(name:,age:,food:)
+  puts "私の名前は#{name}です"
+  puts "私は#{age}歳です"
+  puts "好きなたべものは#{food}です"
+
+end
+
+intoroduce(name: "ats", age:23,food: "コーヒー")
