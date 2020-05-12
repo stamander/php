@@ -35,3 +35,11 @@ end
 
 # print_infoメソッドを呼び出してください
 print_info("SDカード",1200)
+
+def add(a,b)
+  return a + b
+end
+
+sum = add(1,4)
+
+puts sum
