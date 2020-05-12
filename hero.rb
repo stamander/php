@@ -22,3 +22,4 @@ end
 introduce
 # print_infoメソッドを呼び出してください
 print_info("ats")
+print_info("yuki")
