@@ -20,3 +20,13 @@ def shipping_free?(price)
    puts "追加で送料をいただきます"
  end
  
+
+def judge?(score)
+  return 80<=score
+end
+
+if judge?(95)
+  puts "よくできました"
+else
+  puts "もっと頑張りましょう"
+end
