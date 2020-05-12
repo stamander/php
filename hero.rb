@@ -11,11 +11,6 @@ p "月収は#{m}円です"
 
 
 
-# each文でそれぞれのキャラクターの名前を表示してください
-  characters.each do |character|
-    puts "---------------------"
-    puts "名前は#{character[:name]}です"
-  end
 
   characters = [
     {name: "にんじゃわんこ", age: 14},
