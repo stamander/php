@@ -27,3 +27,11 @@ introduce("ミニー",18)
 # print_infoメソッドを呼び出してください
 print_info("ats")
 print_info("yuki")
+
+def print_info(item,price)
+  puts "わんこでんきへようこそ！"
+  puts "今日は#{item}がセール中で#{price}円です！"
+end
+
+# print_infoメソッドを呼び出してください
+print_info("SDカード",1200)
