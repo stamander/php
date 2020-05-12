@@ -14,11 +14,11 @@ def introduce
 end
 
 
-def print_info
-  puts "わんこでんきへようこそ！"
+def print_info(name)
+  puts "#{name}でんきへようこそ！"
   puts "今日はヘッドホンがセール中です！"
 end
 
 introduce
 # print_infoメソッドを呼び出してください
-print_info
+print_info("ats")
