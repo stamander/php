@@ -21,12 +21,13 @@ def shipping_free?(price)
  end
  
 
-def judge?(score)
-  return 80<=score
+def judge(score)
+
+  if 80<=score
+    return  "よくできました"
+  else
+    return  "もっと頑張りましょう"
+  end
 end
 
-if judge?(95)
-  puts "よくできました"
-else
-  puts "もっと頑張りましょう"
-end
+  puts judge(85)
