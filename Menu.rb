@@ -3,8 +3,8 @@ class Menu
   attr_accessor :price
   
   # infoメソッドを定義してください
-  def info
-    puts "料理名と値段が表示されます"
+  def info(data)
+    return "#{data}と値段が表示されます"
   end
 end
 
@@ -14,4 +14,6 @@ menu1.price = 800
 
 # menu1に対してinfoメソッドを呼び出してください
 
-menu1.info
+
+
+puts menu1.info("お菓子")
