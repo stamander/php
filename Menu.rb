@@ -1,6 +1,10 @@
 class Menu
   attr_accessor :name
   attr_accessor :price
+
+  def show
+    puts "私はメニューです"
+  end
 end
 
 menu1 = Menu.new
