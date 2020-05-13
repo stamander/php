@@ -1,31 +1,17 @@
 class Menu
   attr_accessor :name
   attr_accessor :price
-
-  def show
-    puts "私はメニューです"
+  
+  # infoメソッドを定義してください
+  def info
+    puts "料理名と値段が表示されます"
   end
 end
 
 menu1 = Menu.new
-menu1.show
 menu1.name = "ピザ"
-puts menu1.name
-
 menu1.price = 800
-puts menu1.price
 
-# Menuクラスのインスタンスを生成して変数menu2に代入してください
-menu2 = Menu.new
+# menu1に対してinfoメソッドを呼び出してください
 
-# menu2のnameに「すし」を代入してください
-menu2.name="すし"
-
-# menu2のnameを出力してください
-puts menu2.name
-
-# menu2のpriceに「1000」を代入してください
-menu2.price = 1000
-
-# menu2のpriceを出力してください
-puts menu2.price
+menu1.info
