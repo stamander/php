@@ -15,12 +15,13 @@ class Menu
     return total_price
 
   end
+
+  def initialize 
+    self.name = "ピザ"
+  end
 end
 
 menu1 = Menu.new
-menu1.name = "ピザ"
-menu1.price = 800
+puts menu1.name
 
-puts menu1.info
-
-puts menu1.get_total_price(5)
+# puts menu1.get_total_price(5)
