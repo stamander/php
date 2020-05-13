@@ -33,4 +33,4 @@ puts "個数を入力してください(3つ以上で100円割引)"
 count = gets.chomp.to_i
 
 # 「お会計は○○円です」となるように出力してください
-puts "お会計は#{total_price}円です"
+puts "お会計は#{selected_menu.get_total_price(count)}円です"
