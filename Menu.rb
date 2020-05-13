@@ -23,7 +23,6 @@ class Menu
   end
 end
 
-menu1 = Menu.new(name:"こ",price:500)
-puts menu1.info
+
 
 # puts menu1.get_total_price(5)
