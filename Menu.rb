@@ -25,4 +25,3 @@ end
 
 
 
-# puts menu1.get_total_price(5)
