@@ -16,13 +16,14 @@ class Menu
 
   end
 
-  def initialize(message)
-    self.name = "ピザ"
-    puts message
+  def initialize(name:,price:)
+    self.name = name
+    self.price = price
+    
   end
 end
 
-menu1 = Menu.new("こんにちは")
-puts menu1.name
+menu1 = Menu.new(name:"こ",price:500)
+puts menu1.info
 
 # puts menu1.get_total_price(5)
