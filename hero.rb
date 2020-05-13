@@ -17,3 +17,10 @@ menus.each do |menu|
 end
 
 
+puts "名前を入力してね"
+
+name = gets.chomp
+
+puts "私の名前は#{name}です"
+
+
