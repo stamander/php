@@ -4,3 +4,6 @@ class Menu
 end
 
 menu1 = Menu.new
+
+menu1.name = "すし"
+puts menu1.name
