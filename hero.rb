@@ -7,11 +7,13 @@ menu2 = Menu.new(name: "すし", price: 1000)
 menu3 = Menu.new(name: "コーラ", price: 300)
 menu4 = Menu.new(name: "お茶", price: 200)
 
+index = 0
 
 menus = [menu1,menu2,menu3,menu4]
 
 menus.each do |menu|
-  puts menu.info
+  puts "#{index}.#{menu.info}"
+  index += 1
 end
 
 
