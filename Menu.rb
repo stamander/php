@@ -6,6 +6,9 @@ class Menu
     # 「#{}」の中身を埋めてください
     return "#{self.name} #{self.price}円"
   end
+
+  def get_total_price(count)
+  end
 end
 
 menu1 = Menu.new
