@@ -19,7 +19,7 @@ end
 
 puts "名前を入力してね"
 
-name = gets.chomp
+name = gets.chomp.to_i
 
 puts "私の名前は#{name}です"
 
