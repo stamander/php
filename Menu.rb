@@ -1,3 +1,4 @@
 class Menu
-  attr
+  attr_accessor :name
+  attr_accessor :price
 end
