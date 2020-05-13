@@ -8,7 +8,7 @@ class Menu
 end
 
 menu1 = Menu.new
-
+menu1.show
 menu1.name = "ピザ"
 puts menu1.name
 
