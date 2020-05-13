@@ -8,6 +8,7 @@ class Menu
   end
 
   def get_total_price(count)
+    
   end
 end
 
