@@ -1,5 +1,15 @@
 require "./Menu"
   menu1 = Menu.new(name:"pizza",price:5)
-  puts menu1.info
+  menu2 = Menu.new(name:"hambuger",price:3)
+  menu3 = Menu.new(name:"coke",price:1)
+  menu4 = Menu.new(name:"chickin", price:8)
+
+  menus = [menu1,menu2,menu3,menu4]
+
+  menus.each do |menu|
+    puts menu.info
+  end
+
+
 
 
