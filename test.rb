@@ -9,7 +9,7 @@ require "./Food"
   drink1 =Drink.new(name:"coke",price:1)
 
 
-  menus = [menu1,menu2,menu3,menu4]
+  menus = [food1,food2,food3,drink1]
   index = 0
 
   menus.each do |menu|
