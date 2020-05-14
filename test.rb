@@ -3,4 +3,7 @@ class Menu
     self name = "pizza"
   end
 
+  menu1 = Menu.new
+  puts menu1
+
 end
