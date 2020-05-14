@@ -19,7 +19,7 @@ require "./Menu"
   selected_menu = menus[order]
 
 
-  puts "How many #{selected_menu.name}?"
+  puts "How many #{selected_menu.name}? if you buy 3 over,it'll be 1$ off "
 
   count = gets.chomp.to_i
 
