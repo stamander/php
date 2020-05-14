@@ -8,9 +8,7 @@ require "./Food"
   
   food3 = Food.new(name:"chickin", price:8)
   drink1 =Drink.new(name:"coke",price:1)
-  drink1.amount = 500
 
-  puts drink1.amount
 
   # menus = [menu1,menu2,menu3,menu4]
   # index = 0
