@@ -12,7 +12,7 @@ require "./Menu"
     index+=1
   end
   
-  puts "What can I get you？ menu's number please"
+  puts "What can I get you？ enter menu's number please"
 
   order = gets.chomp.to_i
 
@@ -23,7 +23,7 @@ require "./Menu"
 
   count = gets.chomp.to_i
 
-  puts "Thanks finish is #{selected_menu.get_total_price(count)}$"
+  puts "Thanks. Your total is #{selected_menu.get_total_price(count)}$"
 
 
 
