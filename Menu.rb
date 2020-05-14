@@ -12,7 +12,7 @@ class Menu
     if count >= 3
       total_price -= 1
     end
-    return total_price
+    return total_price 
 
   end
 
