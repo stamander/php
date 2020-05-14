@@ -3,12 +3,14 @@ require "./Drink"
 require "./Food"
 
 
-  food1 = Menu.new(name:"pizza",price:5)
-  food2 = Menu.new(name:"hambuger",price:3)
-  drink1 = Menu.new(name:"coke",price:1)
-  food3 = Menu.new(name:"chickin", price:8)
+  food1 =Food.new(name:"pizza",price:5)
+  food2 = Food.new(name:"hambuger",price:3)
+  drink1 =Drink.new(name:"coke",price:1)
+  food3 = Food.new(name:"chickin", price:8)
 
-  puts food2.info
+  drink1.amount = 500
+
+  puts drink1.amount
 
   # menus = [menu1,menu2,menu3,menu4]
   # index = 0
