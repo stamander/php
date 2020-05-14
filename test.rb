@@ -3,9 +3,9 @@ require "./Drink"
 require "./Food"
 
 
-  food1 =Food.new(name:"pizza",price:5)
-  food2 = Food.new(name:"hambuger",price:3)
-  food3 = Food.new(name:"chickin", price:8)
+  food1 =Food.new(name:"pizza",price:5,calorie:700)
+  food2 = Food.new(name:"hambuger",price:3,calorie:700)
+  food3 = Food.new(name:"chickin", price:8,calorie:700)
   drink1 =Drink.new(name:"coke",price:1)
 
 
