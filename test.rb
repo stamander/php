@@ -5,9 +5,9 @@ require "./Food"
 
   food1 =Food.new(name:"pizza",price:5)
   food2 = Food.new(name:"hambuger",price:3)
-  drink1 =Drink.new(name:"coke",price:1)
+  
   food3 = Food.new(name:"chickin", price:8)
-
+  drink1 =Drink.new(name:"coke",price:1)
   drink1.amount = 500
 
   puts drink1.amount
