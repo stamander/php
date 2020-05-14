@@ -1,9 +1,12 @@
-class Menu
+class Test
+
   def initialize
-    self name = "pizza"
+    
+    self.name = "pizza"
   end
-
-  menu1 = Menu.new
-  puts menu1
-
 end
+
+  menu1 = Test.new
+  puts menu1.name
+
+
