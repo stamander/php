@@ -8,11 +8,11 @@ require "./Menu"
   index = 0
 
   menus.each do |menu|
-    puts index
-    puts menu.info
+    puts "#{index}.#{menu.info}"
     index+=1
   end
-
+  
+  
 
 
 
