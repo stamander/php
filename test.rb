@@ -1,7 +1,10 @@
 require "./Menu"
 require "./Drink"
 require "./Food"
-require "./date"
+require "date"
+
+date1 = Date.new(2014,7,5)
+puts date1
 
 
   food1 =Food.new(name:"pizza",price:5,calorie:700)
