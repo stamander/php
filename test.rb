@@ -1,10 +1,8 @@
 require "./Menu"
 require "./Drink"
 require "./Food"
-require "date"
 
-date1 = Date.today
-puts date1
+puts "sunday is get off 2$"
 
 
   food1 =Food.new(name:"pizza",price:5,calorie:700)
@@ -20,6 +18,7 @@ puts date1
     puts "#{index}.#{menu.info}"
     index+=1
   end
+
   
   puts "What can I get you？ enter menu's number please"
 
