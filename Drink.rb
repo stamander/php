@@ -7,8 +7,6 @@ class Drink < Menu
   def info
     return "#{self.name},#{self.price}$,#{self.amount}ml"
   end
-
- 
 end
 
 
