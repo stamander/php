@@ -25,7 +25,7 @@ class Menu
 
   def Menu.is_discount_today?
     today = Date.today
-    if today.sunday?
+    return today.sunday?
 
   end
 end
