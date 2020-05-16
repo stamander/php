@@ -7,6 +7,11 @@ class Drink < Menu
   def info
     return "#{self.name},#{self.price}$,#{self.amount}ml"
   end
+
+  def initialize(name:,price:, amount:)
+    super(name: name,price: price)
+    self.amount = amount
+  end
 end
 
 
