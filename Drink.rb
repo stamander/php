@@ -8,7 +8,7 @@ class Drink < Menu
     return "#{self.name},#{self.price}$,#{self.amount}ml"
   end
 
-  def initia
+ 
 end
 
 

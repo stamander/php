@@ -9,6 +9,7 @@ class Food < Menu
   end
 
   def initialize(name:,price:,calorie:)
+    super 
     self.name = name
     self.price = price
     self.calorie = calorie
