@@ -4,7 +4,7 @@ require "./Food"
 require "date"
 
 date1 = Date.new(2014,7,5)
-puts date1
+puts date1.sunday?
 
 
   food1 =Food.new(name:"pizza",price:5,calorie:700)
