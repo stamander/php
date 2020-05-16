@@ -28,8 +28,8 @@ class Menu
     return today.sunday?
 
   end
-  puts Menu.is_discount_today?
+  
 end
-
+puts Menu.is_discount_today?
 
 
