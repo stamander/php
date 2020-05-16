@@ -21,6 +21,10 @@ class Menu
     self.price = price
     
   end
+
+  def Menu.is_discount_today?
+    today = Date
+  end
 end
 
 
