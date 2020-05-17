@@ -17,11 +17,11 @@ class Heros
 
   def lank(power)
     if power>=150
-      return "あなたのヒーローランクはA"
+      return "あなたのヒーローランクはA！\nヘラクレスじゃん"
     elsif 100<=power && 150>power
-      return "あなたのヒーローランクはB"
+      return "あなたのヒーローランクはB！\nミッキーかな？ハハッ"
     else
-      return "あなたのヒーローランクはC"
+      return "あなたのヒーローランクはC！\nチップかな？デールかな？ウワー"
     end
   end
 

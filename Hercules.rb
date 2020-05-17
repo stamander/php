@@ -7,6 +7,7 @@ def pass(pass)
 end
 
 
+
 require "./heros"
 puts "ヒーローの名前を入力してください"
 name = gets.chomp
