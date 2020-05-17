@@ -3,19 +3,31 @@ def register_data
   # 名前、パンチ力、キック力、ジャンプ力をユーザーに入力させ、保存する。
   puts "名前を入力してください"
   name = gets.chomp
+
   puts "パンチ力を入力してください(0 ~ 100)"
   punch = gets.chomp.to_i
+  power()
+
   puts "キック力を入力してください(0 ~ 100)"
   kick = gets.chomp.to_i
+  power()
   puts "ジャンプ力を入力してください(0 ~ 100)"
+  jump = gets.chomp.to_i
+  power()
+
+  
 
 end
 
 
 def power
+  if punch < 100 && kick < 100 && jump <100
 
   # 入力された数字が0~100になるまで繰り返し入力させる。
-  puts "100以下の数字を入力してください"
+    puts "100以下の数字を入力してください"
+  end
+
+
 
 end
 
@@ -45,7 +57,9 @@ while true
 
   if input == 0
     # データの登録を行う。
+    register_data()
   elsif input == 1
+    show_data_list()
     # 保存されたデータの一覧を表示する。
   elsif input == 2
     exit
