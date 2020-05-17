@@ -1,4 +1,4 @@
-class hero2{
+class heros{
   attr_accessor :name
   attr_accessor :punch
   attr_accessor :kick
