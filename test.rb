@@ -2,7 +2,7 @@ require "./Menu"
 require "./Drink"
 require "./Food"
 
-puts "sunday is get off 2$"
+puts "sunday is get off 2$ "
 
 
   food1 =Food.new(name:"pizza",price:5,calorie:700)
