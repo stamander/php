@@ -4,7 +4,9 @@ class Heros
   attr_accessor :kick
 
   def initialized(name:,punch:,kick:)
-    puts "#{self.name},#{self.punch},#{self.kick}"
+    self.name = name
+    self.punch = punch
+    self.kick = kick
   end
 
   def info
