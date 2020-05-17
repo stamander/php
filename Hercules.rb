@@ -6,9 +6,13 @@ puts "あなたのパンチ力は？"
 punch = gets.chomp.to_i
 puts "あなたのキック力は？"
 kick = gets.chomp.to_i
-end
+
 
 hero << data
+
+end
+
+
 heros = []
 
 
@@ -16,5 +20,4 @@ heros = []
 
 
 
-
-hero("ats")
+hero("data")
