@@ -13,10 +13,10 @@ class Heros
     return "ヒーロー名：#{self.name}.パンチ力：#{self.punch}.キック力：#{self.kick}"
   end
 
-  def lank(punch,kick)
+  power = 0
 
-    power = self.punch + self.kick
-    if power>＝150
+  def lank(power)
+    if power>=150
       return "あなたのヒーローランクはA"
     elsif 100<=power && 150>power
       return "あなたのヒーローランクはB"

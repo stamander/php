@@ -10,5 +10,7 @@ hero1 = Heros.new(name:name,punch:punch,kick:kick)
 
 puts hero1.info
 
-puts hero1.lank(punch,kick)
+power = punch + kick
+
+puts hero1.lank(power)
 
