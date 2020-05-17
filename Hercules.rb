@@ -1,18 +1,9 @@
-class Heros
-  attr_accessor :name
-  attr_accessor :punch
-  attr_accessor :kick
+require "./heros"
 
-  def initialized(name:,punch:,kick:)
-    puts "#{self.name},#{self.punch},#{self.kick}"
-  end
+class Hercules
 
-  def info
-    return "#{self.name}.#{self.punch}.#{self.kick}"
-  end
+
+  hero1 = Heros.new(name: "ats",punch:100,kick:50)
+
+  puts hero1.name
 end
-
-
-hero1 = Heros.new
-
-

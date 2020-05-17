@@ -1,4 +1,4 @@
-class Heros{
+class Heros
   attr_accessor :name
   attr_accessor :punch
   attr_accessor :kick
@@ -10,5 +10,5 @@ class Heros{
   def info
     return "#{self.name}.#{self.punch}.#{self.kick}"
   end
-}
+end
 
