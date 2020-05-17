@@ -4,8 +4,9 @@ def register_data
   puts "名前を入力してください"
   name = gets.chomp
   puts "パンチ力を入力してください(0 ~ 100)"
-  punch = gets.chomp.
+  punch = gets.chomp.to_i
   puts "キック力を入力してください(0 ~ 100)"
+  kick = gets.chomp.to_i
   puts "ジャンプ力を入力してください(0 ~ 100)"
 
 end
