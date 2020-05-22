@@ -1,6 +1,6 @@
 def pass(pass)
   while pass > 100
-    puts "100までだよ"
+    puts "100までです"
     pass = gets.chomp.to_i
   end
   return pass
